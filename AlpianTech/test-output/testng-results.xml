@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-06T18:09:59Z" name="Default suite" finished-at="2022-07-06T18:10:23Z" duration-ms="23178">
+    <groups>
+    </groups>
+    <test started-at="2022-07-06T18:09:59Z" name="Default test" finished-at="2022-07-06T18:10:23Z" duration-ms="23178">
+      <class name="Tests.Test1">
+        <test-method is-config="true" signature="PreReqRun()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:09:59Z" name="PreReqRun" finished-at="2022-07-06T18:10:00Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreReqRun -->
+        <test-method signature="fnCreateComputer()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:00Z" name="fnCreateComputer" finished-at="2022-07-06T18:10:03Z" duration-ms="3845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnCreateComputer -->
+        <test-method signature="fnDeleteComputer()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:03Z" name="fnDeleteComputer" finished-at="2022-07-06T18:10:07Z" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnDeleteComputer -->
+        <test-method signature="fnReadComputer()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:07Z" name="fnReadComputer" finished-at="2022-07-06T18:10:10Z" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnReadComputer -->
+        <test-method signature="fnUpdateComputer()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:10Z" name="fnUpdateComputer" finished-at="2022-07-06T18:10:14Z" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnUpdateComputer -->
+        <test-method signature="fnVerifyCreate()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:14Z" name="fnVerifyCreate" finished-at="2022-07-06T18:10:16Z" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnVerifyCreate -->
+        <test-method signature="fnVerifyUpdated()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:16Z" name="fnVerifyUpdated" finished-at="2022-07-06T18:10:19Z" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnVerifyUpdated -->
+        <test-method signature="fnverifydelete()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:19Z" name="fnverifydelete" finished-at="2022-07-06T18:10:22Z" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnverifydelete -->
+        <test-method is-config="true" signature="AfterTestRun()[pri:0, instance:Tests.Test1@d737b89]" started-at="2022-07-06T18:10:22Z" name="AfterTestRun" finished-at="2022-07-06T18:10:23Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestRun -->
+      </class> <!-- Tests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
