@@ -26,6 +26,8 @@ public class CRUDTests {
 		Reporter.createHtmlReport(".//CompDBTestsResults");
 	}
 	
+	
+	
 	@AfterTest
 	public void AfterTestRun() {
 		Reporter.FlushReports();
